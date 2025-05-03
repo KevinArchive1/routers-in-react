@@ -25,17 +25,17 @@ export default function Contacts() {
 
                 <div className="contact-info">
                     <h2>Contact Details</h2>
-                    <p><strong>Email:</strong> harold@gmail.com.com</p>
+                    <p><strong>Email:</strong> harold@gmail.com</p>
                     <p><strong>Phone:</strong> +63 912 345 6789</p>
                     <div className="social-links">
                         <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                            <img src={`${process.env.PUBLIC_URL}/Images/facebook.png`} alt="Facebook" />
+                            <img src="/Images/facebook.png" alt="Facebook" />
                         </a>
                         <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
-                            <img src={`${process.env.PUBLIC_URL}/Images/linkedin.png`} alt="LinkedIn" />
+                            <img src="/Images/linkedin.png" alt="LinkedIn" />
                         </a>
                         <a href="https://instagram.com" target="_blank" rel="noreferrer">
-                            <img src={`${process.env.PUBLIC_URL}/Images/instagram.png`} alt="Instagram" />
+                            <img src="/Images/instagram.png" alt="Instagram" />
                         </a>
                     </div>
                 </div>

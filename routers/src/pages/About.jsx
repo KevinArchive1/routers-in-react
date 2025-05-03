@@ -21,7 +21,7 @@ export default function About() {
           <h1>I'm currently looking for ways to gain more knowledge and collaborate on real-life projects</h1>
         </div>
         <div className="image-block">
-          <img src={`${process.env.PUBLIC_URL}/Images/me.png`} alt="Harold V. Veleña" />
+          <img src="/Images/me.png" alt="Harold V. Veleña" />
         </div>
       </div>
     </div>

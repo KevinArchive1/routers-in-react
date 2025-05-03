@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react"
-import "./pages-css/Home.css"
+import { useState, useEffect } from "react";
+import "./pages-css/Home.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -54,7 +54,7 @@ export default function Home() {
                     style={{ transform: `rotate(${rotate}deg)` }}
                 >
                     <img
-                        src={`${process.env.PUBLIC_URL}/Images/profile.JPG`}
+                        src="/Images/profile.JPG"
                         alt="Profile"
                     />
                 </div>
@@ -86,19 +86,19 @@ export default function Home() {
                 <h2>Skills</h2>
                 <ul className="skills-list">
                     <li>
-                        <img src={`${process.env.PUBLIC_URL}/Images/html.png`} alt="HTML" />
+                        <img src="/Images/html.png" alt="HTML" />
                     </li>
                     <li>
-                        <img src={`${process.env.PUBLIC_URL}/Images/css-3.png`} alt="CSS" />
+                        <img src="/Images/css-3.png" alt="CSS" />
                     </li>
                     <li>
-                        <img src={`${process.env.PUBLIC_URL}/Images/js.png`} alt="JavaScript" />
+                        <img src="/Images/js.png" alt="JavaScript" />
                     </li>
                     <li>
-                        <img src={`${process.env.PUBLIC_URL}/Images/react.png`} alt="React" />
+                        <img src="/Images/react.png" alt="React" />
                     </li>
                     <li>
-                        <img src={`${process.env.PUBLIC_URL}/Images/github.png`} alt="GitHub" />
+                        <img src="/Images/github.png" alt="GitHub" />
                     </li>
                 </ul>
             </div>

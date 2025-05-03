@@ -13,31 +13,31 @@ export default function Projects() {
 
   const projects = [
     {
-      image: "/Images/prog1.png",
+      image: `${process.env.PUBLIC_URL}/Images/prog1.png`,
       title: "Simple Dice Roller",
       link: "https://kevinarchive1.github.io/Simple-Dice-Roller/",
       description: "A simple probability game created using JavaScript. Using three dice to display different outcomes"
     },
     {
-      image: "/Images/prog2.png",
+      image: `${process.env.PUBLIC_URL}/Images/prog2.png`,
       title: "Brother Jhonny's Promotion Website",
-      link: "https://kevinarchive1.github.io/KevinArchive.github.io/",
+      link: "https://kevinarchive1.github.io/",
       description: "A promotional website for a simple fast food shop, exploring different flavors and serving coffee with a smile. Featuring the best chicken in Lucena."
     },
     {
-      image: "/Images/prog3.png",
+      image: `${process.env.PUBLIC_URL}/Images/prog3.png`,
       title: "Simple To-Do-List in React",
       link: "https://kevinarchive1.github.io/itp-webdev-todolist/",
       description: "A to-do list application built with React, showcasing the fundamentals of CRUD operations."
     },
     {
-      image: "/Images/prog4.png",
+      image: `${process.env.PUBLIC_URL}/Images/prog4.png`,
       title: "Simple Library with API in React",
       link: "https://keviinarchivepagination.netlify.app/",
       description: "A React-based application that simulates a library system, demonstrating how to fetch and display data from an external API with CRUD capabilities."
     },
     {
-      image: "/Images/prog5.png",
+      image: `${process.env.PUBLIC_URL}/Images/prog5.png`,
       title: "MIS Simulation in HTML",
       link: "https://kevinarchive1.github.io/Student-Enrolment-Forms.github.io/",
       description: "A Management Information System simulation built using HTML and CSS, illustrating user navigation and static content layout for administrative interfaces."
@@ -47,7 +47,7 @@ export default function Projects() {
   return (
     <div className="projects-container" data-aos="fade-up">
       <main>
-        <img className="main-img" src="/Images/prog-current.png" alt="Main Project" />
+        <img className="main-img" src={`${process.env.PUBLIC_URL}/Images/prog-current.png`} alt="Main Project" />
         <h1>A Complex Music Player React</h1>
         <p>Ongoing project</p>
       </main>

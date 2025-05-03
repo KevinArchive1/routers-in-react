@@ -1,0 +1,21 @@
+.footer-holder {
+    display: flex;
+    flex-direction: column;
+    background-color: #131515;
+}
+
+marquee {
+    display: flex;
+}
+
+marquee img {
+    height: 60px;
+    width: auto;
+}
+
+footer {
+    background: linear-gradient(-180deg,rgb(125, 226, 209) 0%, rgb(13, 13, 15) 150%);
+    color: white;
+    font-size: 0.8rem;
+    text-shadow: 2px 2px black;
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/routers-in-react/static/css/main.68716c91.css",
+    "main.js": "/routers-in-react/static/js/main.caf1acf4.js",
+    "index.html": "/routers-in-react/index.html",
+    "main.68716c91.css.map": "/routers-in-react/static/css/main.68716c91.css.map",
+    "main.caf1acf4.js.map": "/routers-in-react/static/js/main.caf1acf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68716c91.css",
+    "static/js/main.caf1acf4.js"
+  ]
+}

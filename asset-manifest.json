@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/routers-in-react/static/css/main.68716c91.css",
-    "main.js": "/routers-in-react/static/js/main.39a2c939.js",
+    "main.js": "/routers-in-react/static/js/main.4052b429.js",
     "index.html": "/routers-in-react/index.html",
     "main.68716c91.css.map": "/routers-in-react/static/css/main.68716c91.css.map",
-    "main.39a2c939.js.map": "/routers-in-react/static/js/main.39a2c939.js.map"
+    "main.4052b429.js.map": "/routers-in-react/static/js/main.4052b429.js.map"
   },
   "entrypoints": [
     "static/css/main.68716c91.css",
-    "static/js/main.39a2c939.js"
+    "static/js/main.4052b429.js"
   ]
 }

@@ -65,11 +65,20 @@
 
 
 @media (max-width: 768px) {
+
+    .intro-section {
+        width: 80%;
+        gap: 0px;   
+    }
+
     .intro-section {
         flex-direction: column;
     }
 
     .intro-section .text-block {
-        text-align: center;
+        text-align: justify;
+        font-size: 0.6rem;
     }
+
+    
 }

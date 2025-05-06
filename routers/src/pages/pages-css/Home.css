@@ -140,6 +140,62 @@
     }
 }
 
+@media (max-width: 768px) {
+
+    .profile-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .intro {
+        width: 100%;     
+    }
+
+    .typer {
+        font-size: 3rem;
+    }
+
+    .profile-img {
+        & img {
+            height: auto;
+            width: 60%;
+        }
+    }
+
+    .typer-section {
+        width: 100%;
+    }
+
+    .about-section {
+        & h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .about-text, .about-paragraph {
+        height: 150px;
+        width: 40%;
+        padding: 0.6rem;
+    }
+
+    .about-paragraph {
+        font-size: 0.8rem;
+    }
+
+    .skills-section {
+        & h2 {
+            font-size: 4rem;
+        }
+    }
+
+    
+.skills-list {
+    & img {
+        height: 100px;
+        width: auto;
+    }
+}
+}
 
 
 

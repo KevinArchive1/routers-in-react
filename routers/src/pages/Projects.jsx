@@ -37,7 +37,7 @@ export default function Projects() {
       description: "A React-based application that simulates a library system, demonstrating how to fetch and display data from an external API with CRUD capabilities."
     },
     {
-      image: `${process.env.PUBLIC_URL}/Images/prog5.png`,
+      image: `${process.env.PUBLIC_URL}/Images/prog 5.png`,
       title: "MIS Simulation in HTML",
       link: "https://kevinarchive1.github.io/Student-Enrolment-Forms.github.io/",
       description: "A Management Information System simulation built using HTML and CSS, illustrating user navigation and static content layout for administrative interfaces."

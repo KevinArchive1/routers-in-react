@@ -19,3 +19,9 @@ footer {
     font-size: 0.8rem;
     text-shadow: 2px 2px black;
 }
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 8px;
+    }
+}
